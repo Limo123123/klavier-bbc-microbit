@@ -1,4 +1,4 @@
-music.setVolume(23)
+music.setVolume(55)
 basic.forever(function () {
     if (WSTouchPiano.TP_Press(TP_PIANO.C)) {
         music.playMelody("C - - - - - - - ", 120)
